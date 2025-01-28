@@ -1,4 +1,4 @@
-package org.example;// User.java
+package org.example;
 
 public class User {
     private String name;
@@ -9,7 +9,6 @@ public class User {
         this.age = age;
     }
 
-    // Геттеры
     public String getName() {
         return name;
     }
