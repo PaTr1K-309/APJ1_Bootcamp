@@ -1,0 +1,17 @@
+package org.example;
+
+public class Cat extends Animal {
+
+    public Cat(String name, int age) {
+        super(name, age);
+    }
+
+    @Override
+    public double goToWalk() {
+        return getAge() * 0.25;
+    }
+
+    public String toString() {
+        return String.format("Cat name = %s, age = %d", getName(), getAge());
+    }
+}

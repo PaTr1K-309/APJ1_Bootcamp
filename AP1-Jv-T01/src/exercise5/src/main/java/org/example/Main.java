@@ -43,13 +43,9 @@ public class Main {
       }
 
       if (!res.isEmpty()) {
-        for (int ik : masiv) {
-          System.out.print(ik + " "); // удалить
-        }
         System.out.println();
         for (int j : res) { // изменить на while
           System.out.print(j + " ");
-          ;
         }
       } else {
         System.out.println("There are no such elements");
